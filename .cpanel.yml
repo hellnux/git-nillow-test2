@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nillowcom/public_html/git2.nillow.com.br/
+    - /bin/cp -R ./ $DEPLOYPATH
